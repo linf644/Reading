@@ -1,0 +1,116 @@
+body{
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+	margin: 0;
+}
+a:link{
+	text-decoration: none;
+}
+.container{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+	padding: 0;
+	margin: 0;
+	background-color:  #E1D4C3;
+}
+.card{
+	position: absolute;
+	width: 90vw;
+	height: 90vh;
+	top: calc(50% - 45vh);
+	left: calc(50% - 45vw);
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: white;
+}
+
+h1{
+	font-size: 50px;
+}
+#title{
+	position: absolute;
+	left: 40px;
+	top: 180px;
+	width: 600px;
+	height: 200px;
+	text-align: right;
+}
+#name{
+	font-size: 30px;
+}
+#mail{
+	position: absolute;
+	width: 400px;
+	top: calc(60% - 200px);
+	right: 100px;
+}
+
+.back{
+	position: absolute;
+	vertical-align: middle;
+	line-height: 30px;
+	font-size: 20px;
+	color: white;
+	top: 10px;
+	left: 10px;
+	width: 80px;
+	height: 30px;
+	border-style: outset;
+	background-color: black;
+}
+#Guy{
+	position: absolute;
+	height: 300px;
+	top: calc(50% - 150px);
+	left: 130px;
+	box-shadow: 20px 20px 40px grey;
+}
+#Guy2{
+	position: absolute;
+	height: 300px;
+	top: 550px;
+	left: 130px;
+	box-shadow: 20px 20px 40px grey;
+}
+#authorname{
+	position: absolute;
+	font-size: 40px;
+	top: 100px;
+	right: 400px;
+}
+#info{
+	position: absolute;
+	font-size: 20px;
+	width: 400px;
+	height: 500px;
+	top:140px;
+	right: 250px;
+	text-align: left;
+}
+
+#mailart{
+	position: absolute;
+	font-size: 40px;
+	left: calc(50% - 120px);
+}
+
+.box{
+	position: absolute;
+	width: 1100px;
+	height: 85vh;
+	left: calc(49.55% - 550px);
+	top: 120px;
+	overflow-y: auto;
+	border: 5px dashed black;
+	border-radius: 5px;
+}
+.content{
+	display: inline-block;
+	font-size: 18px;
+	text-align: left;
+	line-height: 25px;
+	margin: 10px 10px 10px 10px;
+}
